@@ -1,0 +1,34 @@
+{
+  "simulations": [
+    {
+      "id": "SIM-002",
+      "name": "Temperature Simulation",
+      "input_sensors": ["sensor_1", "sensor_2"],
+      "formula": "Temp = (sensor_1 + sensor_2) / 2"
+    },
+    {
+      "id": "SIM-006",
+      "name": "Pressure Simulation",
+      "input_sensors": ["sensor_3", "sensor_4"],
+      "formula": "Pressure = sensor_3 * sensor_4"
+    },
+    {
+      "id": "SIM-007",
+      "name": "Flow Rate Simulation",
+      "input_sensors": ["sensor_5", "sensor_6"],
+      "formula": "FlowRate = sensor_5 + sensor_6"
+    },
+    {
+      "id": "SIM-010",
+      "name": "Level Simulation",
+      "input_sensors": ["sensor_7"],
+      "formula": "Level = sensor_7"
+    },
+    {
+      "id": "SIM-013",
+      "name": "Vibration Simulation",
+      "input_sensors": ["sensor_8", "sensor_9"],
+      "formula": "Vibration = sqrt(sensor_8^2 + sensor_9^2)"
+    }
+  ]
+}
